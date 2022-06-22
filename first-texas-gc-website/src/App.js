@@ -15,7 +15,7 @@ return(
       <Route path="/services"></Route>
       <Route path="/about"></Route>
       <Route path="/contact"></Route>
-      <Route path="inspection"></Route>
+      <Route path="/inspection"></Route>
     </Routes>
   </div>
 )
