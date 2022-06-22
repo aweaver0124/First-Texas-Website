@@ -146,6 +146,90 @@ a.nav-button:hover {
   background: transparent;
 }
 
+#about-banner{
+  position: relative;
+}
+ #about-us-header-img{
+  border-top: 4px solid darkblue;
+  border-bottom: 4px solid darkblue;
+ }
+
+#overlay-about-img{
+  position: absolute;
+  left: 620px;
+  top: 50px;
+  color: white;
+  z-index: 10;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px 3px #363EB0;
+  margin: 0;
+
+}
+
+#about-us{
+  position: relative;
+}
+
+#about-main-content{
+  width: 1000px;
+  position: absolute;
+  top: 220px;
+  z-index: 10;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  left: 265px;
+}
+
+#about-paragraphs-wrapper{
+  float: right;
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+#company-pic{
+  margin: 20px;
+}
+
+#main-about-info{
+  font-size: 18px;
+  color: darkblue;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+
+.light{
+  color: #6B6B6B;
+}
+
+#our-team{
+  margin-top:250px;
+  background-color: #DBDBDB;
+  display: block;
+  justify-content: center;
+}
+
+#our-team h1{
+  margin: 20px;
+}
+
+.team{
+  text-align: center;
+}
+
+.team-member{
+  height: 390px;
+  width: 270px;
+  margin: 20px;
+}
+
+#team-member-wrapper{
+  justify-content: center;
+}
 /* 
 @keyframes fadeAndScale{
   0% {
