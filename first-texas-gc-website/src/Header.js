@@ -14,6 +14,9 @@ function Header(){
                 <Link className="nav-button" to="/services"> 
                     SERVICES   
                 </Link>
+                <Link className="nav-button" to="/gallery">
+                    GALLERY
+                </Link>
                 <Link className="nav-button" to="/about">
                      ABOUT US
                 </Link>
