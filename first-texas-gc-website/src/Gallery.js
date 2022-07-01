@@ -1,4 +1,5 @@
 import GalleryCard from "./GalleryCard";
+import gallery_image from "./images_ft/gallery_image.jpg"
 
 function Gallery(){
 
@@ -157,9 +158,23 @@ function Gallery(){
     
 
     return(
-        <div id="gallery-content">
-            <h1>Gallery</h1>
-            <GalleryCard gallery_data={gallery_data}/>
+        <div id="gallery">
+            <div id="gallery-banner">
+                <div id='gallery-background'> <img id="gallery-header-img" src={gallery_image} alt="home header" width="1518px" height="1000px"></img> </div>
+                <div id="overlay-gallery-img"> 
+                    <h1 id="gallery-h1">Gallery</h1>
+                    <h4 id="gallery-h4">Unsure which shingle color you want?<br></br> Browse a few of our samples below to get an idea!</h4> 
+                </div>
+            </div>
+            <div>
+                <p id="gallery-disclaimer"> All shingles are subject to availability depending on your area. Ask your consultant to find out.</p>
+                <GalleryCard gallery_data={gallery_data}/>
+            </div>
+            <div>
+                <p id="ending-gallery-disclaimer">All samples taken from <a href="https://www.gaf.com/en-us/for-homeowners/gaf-style-guide">GAF My Roof</a> website, our primary vendor. </p>
+            </div>
+
+            
         </div>
 
     )

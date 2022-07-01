@@ -1,5 +1,5 @@
 import shingles_about from "./images_ft/shingles_about.jpg"
-import man_and_son from "./images_ft/man_and_son.jpg"
+import man_and_son from "./images_ft/man-and-son.jpg"
 import dad_in_kilt from "./images_ft/dad_in_kilt.jpg"
 import tom from "./images_ft/tom.jpg";
 
@@ -11,7 +11,7 @@ function About(){
                 <div id="overlay-about-img"><h1>ABOUT US</h1></div>
             </div>
             <div id="about-main-content">
-                <img id="company-pic" src={man_and_son} alt="dad and tom" height="300px" width="350px"></img>
+                <img id="company-pic" src={man_and_son} alt="dad and tom" height="350px" width="490px"></img>
                 <div id="about-paragraphs-wrapper">
                     <p id="main-about-info">First Texas General Contracting is a residential and commercial construction company focused on roofing, 
                     siding, gutters, and more. Based out of Granbury, Texas, we have served, Hood County, Tarrant County, 
