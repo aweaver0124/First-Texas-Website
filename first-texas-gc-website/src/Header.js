@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Header(){
     return(
         <header>
-            <img id="ft_logo" src={first_texas_logo} alt="first texas logo" />
+            <Link to="/"><img id="ft_logo" src={first_texas_logo} alt="first texas logo" /></Link>
             <nav>
                 <Link className="nav-button" to="/">
                      HOME 

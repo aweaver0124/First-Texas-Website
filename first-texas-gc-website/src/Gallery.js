@@ -160,7 +160,7 @@ function Gallery(){
     return(
         <div id="gallery">
             <div id="gallery-banner">
-                <div id='gallery-background'> <img id="gallery-header-img" src={gallery_image} alt="home header" width="1518px" height="1000px"></img> </div>
+                <div id='gallery-background'> <img id="gallery-header-img" src={gallery_image} alt="home header" width="1518px" height="900px"></img> </div>
                 <div id="overlay-gallery-img"> 
                     <h1 id="gallery-h1">Gallery</h1>
                     <h4 id="gallery-h4">Unsure which shingle color you want?<br></br> Browse a few of our samples below to get an idea!</h4> 
