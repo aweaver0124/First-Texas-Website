@@ -14,6 +14,10 @@ h2{
   height: 100px;
 }
 
+a:hover{
+  font-weight: bold;
+}
+
 nav {
   float: right;
   margin-right: 180px;
@@ -175,7 +179,7 @@ a.nav-button:hover {
   height: 550px;
   display: flex;
   justify-content: center;
-  /* border: 5px solid darkblue; */
+  
   float: left;
 }
 
@@ -189,7 +193,7 @@ a.nav-button:hover {
 
 #overlay-about-img{
   position: absolute;
-  left: 620px;
+  left: 645px;
   top: 50px;
   color: white;
   z-index: 10;
@@ -197,11 +201,28 @@ a.nav-button:hover {
   letter-spacing: 3px;
   text-shadow: 3px 3px 3px #363EB0;
   margin: 0;
+  animation: slideIn 3s 1;
 
 }
 
 #about-us{
   position: relative;
+}
+
+@keyframes easeUp {
+  0%{
+    transform: translate3d(0px, 100px, 0px);
+    opacity: 0%;
+  }
+  50%{
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 100%;
+    
+  }
+  100%{
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 100%;
+  }
 }
 
 #about-main-content{
@@ -214,6 +235,7 @@ a.nav-button:hover {
   justify-content: center;
   border-radius: 10px;
   left: 265px;
+  animation: easeUp 3s 1;
 }
 
 #about-paragraphs-wrapper{
@@ -264,6 +286,7 @@ a.nav-button:hover {
 
 .individual-team-member{
   width: 400px;
+  height: 870px;
   text-align: center;
   display: inline-block;
   vertical-align: top;
@@ -271,6 +294,14 @@ a.nav-button:hover {
   margin-bottom: 20px;
   color: darkblue;
   line-height: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 9px;
+  line-height: 20px;
+}
+
+#thomas{
+  line-height: 25px;
 }
 
 #gallery-content-holder{
@@ -282,6 +313,17 @@ a.nav-button:hover {
   display: inline-block;
   margin: 30px;
   text-align: center;
+  display:inline-block; 
+  cursor: pointer; 
+  transition-property: all; 
+  transition-duration: 0.3s; 
+  transition-timing-function: ease;
+}
+
+.gallery-img-wrapper:hover{
+  opacity: 100%;
+  transform: scale(1.25); 
+  z-index:999;
 }
 
 .shingle-img{
@@ -300,6 +342,7 @@ a.nav-button:hover {
   top: 80px;
   color: white;
   z-index: 10;
+  animation: easeUp 3s 1;
 }
 
 #gallery-h1 {
@@ -313,7 +356,6 @@ a.nav-button:hover {
   letter-spacing: 1px;
   color: #C16220;
   opacity: 80%;
-  /* text-shadow: 3px 3px 3px #C16220; */
   margin-top: 20px;
   font-size: 25px;
 }

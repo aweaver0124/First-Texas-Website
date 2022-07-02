@@ -31,7 +31,7 @@ function About(){
                             an insurance adjuster alongside his roofing company, and with hard work and integrity became RJMW claim service’s adjuster of the year in 2011. He is thoroughly familiar with all aspects of the insurance claims 
                             industry and will ensure customers receive the most amicable settlement for storm-related damages.</p>
                     </div>
-                    <div className="individual-team-member">
+                    <div id="thomas" className="individual-team-member">
                         <img className="team-member" src={tom} alt="manager"></img>
                         <h2>Thomas Weaver</h2>
                         <p>Thomas Weaver is the sales manager for First Texas serving under his father, Douglas Weaver. Thomas has a background in general construction working as a framer and roofer in 2018, as well as a finance degree 
