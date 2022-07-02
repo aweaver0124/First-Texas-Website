@@ -23,9 +23,6 @@ function Header(){
                 <Link className="nav-button" to="/contact">
                      CONTACT US 
                 </Link>
-                <Link className="nav-button" to="/inspection">
-                     FREE INSPECTION 
-                </Link>
             </nav>
         </header>
     )

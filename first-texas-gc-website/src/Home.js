@@ -23,7 +23,7 @@ function Home(){
                     <p className="number"> 817-910-7663 </p>
                     <p className="serving">Serving Hood, Tarrant, and surrounding counties<br></br>
                         Located in Granbury, Texas</p>
-                    <NavLink to="/inspection"><button className="free-inspection">Free Inspection</button></NavLink>
+                    <NavLink to="/contact"><button className="free-inspection">Free Inspection</button></NavLink>
                 </div>
                 <div>
                     <img id='bbb-logo' src='https://1000logos.net/wp-content/uploads/2017/11/BBB-logo.jpg' alt="bbb logo"></img>

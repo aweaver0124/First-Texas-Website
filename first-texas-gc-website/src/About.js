@@ -7,7 +7,7 @@ function About(){
     return(
         <div id="about-us">
             <div id="about-banner">
-                <div id="about_background"><img id="about-us-header-img" src={shingles_about} alt="shingles header" width="1536px" height="325px"></img></div>
+                <div id="about_background"><img id="about-us-header-img" src={shingles_about} alt="shingles header" width="1522px" height="325px"></img></div>
                 <div id="overlay-about-img"><h1>ABOUT US</h1></div>
             </div>
             <div id="about-main-content">
@@ -22,10 +22,22 @@ function About(){
                 </div>
             </div>
             <div id="our-team">
-                <h1 className="team">Our Team</h1>
                 <div className="team-member-wrapper">
-                    <img className="team-member" src={dad_in_kilt} alt="owner"></img>
-                    <img className="team-member" src={tom} alt="manager"></img>
+                    <div className="individual-team-member">
+                        <img className="team-member" src={dad_in_kilt} alt="owner"></img>
+                        <h2>Douglas Weaver</h2>
+                        <p>Douglas Weaver is the owner and operator of all business affairs for First Texas. He began roofing in 1978 serving various different companies. His experience includes, roof installation, framing, stone masonry, 
+                            and general handywork and construction. In 1996, Douglas founded his own general construction company, First Texas General Contracting. The business has continued to grow and prosper since. In 2005, Douglas became 
+                            an insurance adjuster alongside his roofing company, and with hard work and integrity became RJMW claim service’s adjuster of the year in 2011. He is thoroughly familiar with all aspects of the insurance claims 
+                            industry and will ensure customers receive the most amicable settlement for storm-related damages.</p>
+                    </div>
+                    <div className="individual-team-member">
+                        <img className="team-member" src={tom} alt="manager"></img>
+                        <h2>Thomas Weaver</h2>
+                        <p>Thomas Weaver is the sales manager for First Texas serving under his father, Douglas Weaver. Thomas has a background in general construction working as a framer and roofer in 2018, as well as a finance degree 
+                            from Texas State University. He has been a key individual at First Texas bringing in over half of all roof sales and providing excellent customer service. Thomas also works as an independent insurance adjuster 
+                            possessing knowledge of the insurance claims industry and will ensure the best settlement for clients of First Texas General Contracting.</p>
+                    </div>
                 </div>
             </div>
         </div>

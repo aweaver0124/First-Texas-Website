@@ -1,5 +1,6 @@
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 2px;
 }
 
 h2{
@@ -46,8 +47,23 @@ a.nav-button:hover {
   align-items: center;
 }
 
+@keyframes slideIn{
+  0%{
+    transform: translate3d(-2000px, 0px, 0px);
+  }
+
+  50%{
+    transform: translate3d(0px, 0px, 0px);
+  }
+ 
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+}
+
 #info-banner p{
   text-align: center;
+  animation: slideIn 7s 1;
 }
 
 #home-content{
@@ -64,16 +80,31 @@ a.nav-button:hover {
   opacity: 90%;
 }
 
+@keyframes slide {
+  0%{
+    transform: translate3d(0px, 100px, 0px);
+    opacity: 0%;
+  }
+  50%{
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 70%;
+    
+  }
+  100%{
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 100%;
+  }
+}
+
 #home-content-info{
   color: white;
   text-shadow: 3px 3px 3px #363EB0;
   z-index: 10;
   text-align: center;
   position: absolute;
-  top:220px;
+  top: 170px;
   left: 400px;
-  /* animation-name: fadeAndSlide 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  animation-delay: 1s; */
+  animation: slide 5s 1;
 }
 
 .co-name{
@@ -122,11 +153,20 @@ a.nav-button:hover {
   height: 500px;
   width: 600px;
   margin: 20px;
-  opacity: 80%;
+  top:-50px; 
+  left:-35px; 
+  border-radius: 7px;
+  display:block; 
+  cursor: pointer; 
+  transition-property: all; 
+  transition-duration: 0.3s; 
+  transition-timing-function: ease;
 }
 
 .recent-work:hover {
   opacity: 100%;
+  transform: scale(1.25); 
+  z-index:999;
 }
 
 .recent-work-wrapper{
@@ -135,15 +175,8 @@ a.nav-button:hover {
   height: 550px;
   display: flex;
   justify-content: center;
-  border: 5px solid darkblue;
+  /* border: 5px solid darkblue; */
   float: left;
-}
-
-.recent-work-wrapper:hover{
-  box-shadow: 3px 3px darkgray;
-  -webkit-text-size-adjust: 100%;
-  vertical-align: baseline;
-  background: transparent;
 }
 
 #about-banner{
@@ -207,17 +240,14 @@ a.nav-button:hover {
 }
 
 #our-team{
-  margin-top:250px;
-  background-color: #DBDBDB;
-  display: block;
+  margin-top:300px;
+  background-color: #E8E8E8;
+  display: flex;
   justify-content: center;
 }
 
-#our-team h1{
-  margin: 20px;
-}
-
 .team{
+  color: darkblue;
   text-align: center;
 }
 
@@ -228,7 +258,19 @@ a.nav-button:hover {
 }
 
 #team-member-wrapper{
+  align-items: center;
   justify-content: center;
+}
+
+.individual-team-member{
+  width: 400px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin: 70px;
+  margin-bottom: 20px;
+  color: darkblue;
+  line-height: 20px;
 }
 
 #gallery-content-holder{

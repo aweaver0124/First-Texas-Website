@@ -19,7 +19,6 @@ return(
       <Route path="/gallery" element={<Gallery />}></Route>
       <Route path="/about" element={<About />}></Route>
       <Route path="/contact"></Route>
-      <Route path="/inspection"></Route>
     </Routes>
   </div>
 )
