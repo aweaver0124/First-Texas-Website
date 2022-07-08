@@ -379,3 +379,80 @@ a.nav-button:hover {
   margin-bottom: 25px;
 }
 
+#services{
+  display: flex;
+}
+
+#services-background-img{
+  margin-left: 175px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+@keyframes grow {
+  0%{
+    transform: translate3d(0px, 0px, -300px);
+    opacity: 0%;
+  }
+  50%{
+    transform: translate3d(0px, 0px, -300px);
+    opacity: 100%;
+    
+  }
+  100%{
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 100%;
+  }
+}
+
+#overlay-services-img{
+  animation: grow 3s 1;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  color: white;
+  position: absolute;
+  left: 545px;
+  top: 200px;
+
+}
+
+#free-estimate{
+  display: flex;
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  color: white;
+  position: absolute;
+  left: 305px;
+  top: 350px;
+}
+
+#estimate-img{
+  vertical-align: top;
+}
+
+#copper-turret{
+  border-radius:  10px;
+  animation: slideIn 3s 1;
+}
+
+@keyframes slideInReverse{
+
+  0%{
+    transform: translate3d(2000px, 0px, 0px);
+  }
+  50%{
+    transform: translate3d(0px, 0px, 0px);
+  }
+  100%{
+    transform: translate3d(0px, 0px, 0px);
+  }
+
+}
+
+.estimate-p{
+  float: right;
+  vertical-align: top;
+  margin: 30px;
+  line-height: 23px;
+}
