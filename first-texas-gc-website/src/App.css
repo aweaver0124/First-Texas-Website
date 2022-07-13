@@ -277,10 +277,6 @@ a.nav-button:hover {
   justify-content: center;
 }
 
-.team{
-  color: darkblue;
-  text-align: center;
-}
 
 .team-member{
   height: 390px;
@@ -303,7 +299,7 @@ a.nav-button:hover {
   margin-bottom: 20px;
   color: darkblue;
   line-height: 20px;
-  background-color: white;
+  background-color: #E8E8E8;
   padding: 20px;
   border-radius: 9px;
   line-height: 20px;
@@ -455,4 +451,46 @@ a.nav-button:hover {
   vertical-align: top;
   margin: 30px;
   line-height: 23px;
+  animation: slideInReverse 3s 1;
+}
+
+#contact-us-h1{
+  text-align: center;
+}
+#contact{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+input {
+  width: 600px;
+  height: 30px;
+}
+textarea {
+  height: 15em;
+  width: 600px;
+}
+
+#contact-form{
+  background-color: #E8E8E8;
+  width:1000px;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+#submit-button{
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+.message-chars-left {
+  width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+#contact-us-main{
+  display: block;
 }
