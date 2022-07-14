@@ -457,10 +457,73 @@ a.nav-button:hover {
 #contact-us-h1{
   text-align: center;
 }
-#contact{
+#form-wrapper{
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-bottom: 40px;
+}
+#form-content-wrapper{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#message-us{
+  text-align: left;
+  margin: 30px;
+}
+
+#message-us h1{
+  font-size: 80px;
+  margin-top: 110px;
+  margin-bottom: 15px;
+  color: #BA0A0A;
+}
+
+#message-us p {
+  font-size: 23px;
+}
+#contact-us-main{
+  background-color: #99D9EA;
+  color: white;
+  padding: 10px;
+  padding-bottom: 80px;
+  margin-bottom: 30px;
+  
+}
+
+#contact-us-main h4{
+  margin: 5px;
+  text-align: center;
+  margin-bottom: 55px;
+  font-size: 24px;
+  text-shadow: 3px 3px 3px #78AAB8;
+  animation: easeUp 2s 1;
+}
+
+#contact-us-main h1{
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 3px #78AAB8;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 60px;
+  animation: easeUp 2s 1;
+}
+
+#contact-wrapper{
+  display: flex;
+  justify-content: center;
+  animation: easeUp 2s 1;
+}
+
+.contact-attr{
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 300px;
+  text-shadow: 3px 3px 3px #78AAB8;
 }
 
 input {
@@ -473,17 +536,26 @@ textarea {
 }
 
 #contact-form{
-  background-color: #E8E8E8;
-  width:1000px;
-  padding: 40px;
+  background-color: #CCCCCC;
+  width:700px;
+  padding: 20px;
+  margin: 40px;
   border-radius: 20px;
 }
+
 
 #submit-button{
   width: 100px;
   height: 50px;
   background-color: white;
   border-radius: 10px;
+}
+
+#submit-button:hover{
+  font-weight: bolder;
+  opacity: 100%;
+  transform: scale(1.09); 
+  z-index:999;
 }
 .message-chars-left {
   width: 600px;
