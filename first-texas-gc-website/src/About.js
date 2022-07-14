@@ -1,6 +1,6 @@
 import shingles_about from "./images_ft/shingles_about.jpg"
 import man_and_son from "./images_ft/man-and-son.jpg"
-import dad_in_kilt from "./images_ft/dad_in_kilt.jpg"
+import dad_ft from "./images_ft/dad_ft.jpg"
 import tom from "./images_ft/tom.jpg";
 
 function About(){
@@ -24,7 +24,7 @@ function About(){
             <div id="our-team">
                 <div className="team-member-wrapper">
                     <div className="individual-team-member">
-                        <img className="team-member" src={dad_in_kilt} alt="owner"></img>
+                        <img className="team-member" src={dad_ft} alt="owner"></img>
                         <h2>Douglas Weaver</h2>
                         <p>Douglas Weaver is the owner and operator of all business affairs for First Texas. He began roofing in 1978 serving various different companies. His experience includes, roof installation, framing, stone masonry, 
                             and general handywork and construction. In 1996, Douglas founded his own general construction company, First Texas General Contracting. The business has continued to grow and prosper since. In 2005, Douglas became 

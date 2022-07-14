@@ -280,8 +280,9 @@ a.nav-button:hover {
 
 .team-member{
   height: 390px;
-  width: 270px;
+  width: 300px;
   margin: 20px;
+  border: 5px solid darkblue;
 }
 
 #team-member-wrapper{

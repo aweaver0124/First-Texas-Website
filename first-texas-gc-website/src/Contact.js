@@ -74,7 +74,6 @@ function Contact(){
                             name='message'
                             maxLength='1500' />
                         <br/><br></br>
-                        {/* <p className='message-chars-left'>{messageCharsLeft}</p> */}
                         <input id="submit-button" type='submit' value='Send' />
                     </form>
                 </div>
