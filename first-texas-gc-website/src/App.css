@@ -376,12 +376,15 @@ a.nav-button:hover {
   margin-bottom: 25px;
 }
 
-#services{
+
+
+#services-header{
   display: flex;
+  justify-content: center;
 }
 
 #services-background-img{
-  margin-left: 175px;
+  margin-left: 40px;
   margin-top: 20px;
   border-radius: 10px;
 }
@@ -424,8 +427,65 @@ a.nav-button:hover {
   top: 350px;
 }
 
+#free-estimate p {
+  text-align: left;
+  font-size: 20px;
+}
+
 #estimate-img{
   vertical-align: top;
+}
+
+#services-main-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E8E8E8;
+  margin-top: 50px;
+}
+
+#services-main{
+  width: 1000px;
+  margin: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+#services-list-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#our-experts{
+  text-align: center;
+}
+
+ul{
+  list-style: url("./images_ft/hammer_icon.png") ;
+  text-align: left;
+  margin: 20px; 
+
+}
+
+.link{
+  color: red
+}
+.list-item{
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #BA0A0A;
+}
+#services-main h1{
+  text-align: center;
+  font-size: 60px;
+}
+
+.services-info{
+  font-size: 20px;
 }
 
 #copper-turret{

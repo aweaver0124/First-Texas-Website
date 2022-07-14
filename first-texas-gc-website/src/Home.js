@@ -20,7 +20,7 @@ function Home(){
                 <div id="shingles-img"> <img src={home_page_picture_1} alt="shingles" /> </div>
                 <div id='home-content-info'>
                     <p className="co-name">First Texas General Contracting</p>
-                    <p className="number"> 817-910-7663 </p>
+                    <p className="number"> 817-964-7620</p>
                     <p className="serving">Serving Hood, Tarrant, and surrounding counties<br></br>
                         Located in Granbury, Texas</p>
                     <NavLink to="/contact"><button className="free-inspection">Free Inspection</button></NavLink>

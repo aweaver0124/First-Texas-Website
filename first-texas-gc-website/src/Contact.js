@@ -31,7 +31,7 @@ function Contact(){
                 <div id="contact-wrapper">
                     <div className='contact-attr'>
                         <img src={phone_icon_color} alt="phone icon" height="100px" width="100px" />
-                        <h3>Office: 817-910-7663<br></br>Mobile: 817-964-6477</h3>
+                        <h3>Office: 817-964-7620<br></br>Mobile: 817-559-4819</h3>
                         
                     </div>
                     <div className='contact-attr'>
