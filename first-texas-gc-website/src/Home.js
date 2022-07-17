@@ -8,6 +8,7 @@ import in_progress_roof from "./images_ft/in_progress_roof.JPG";
 import { NavLink } from "react-router-dom";
 
 
+
 function Home(){
 
 
@@ -20,7 +21,7 @@ function Home(){
                 <div id="shingles-img"> <img src={home_page_picture_1} alt="shingles" /> </div>
                 <div id='home-content-info'>
                     <p className="co-name">First Texas General Contracting</p>
-                    <p className="number"> 817-964-7620</p>
+                    <p className="number"><a href="tel: 8179647620" className="white"> 817-964-7620</a></p>
                     <p className="serving">Serving Hood, Tarrant, and surrounding counties<br></br>
                         Located in Granbury, Texas</p>
                     <NavLink to="/contact"><button className="free-inspection">Free Inspection</button></NavLink>

@@ -1,5 +1,6 @@
 import GalleryCard from "./GalleryCard";
 import gallery_image from "./images_ft/gallery_image.jpg"
+import Footer from "./Footer";
 
 function Gallery(){
 
@@ -174,9 +175,8 @@ function Gallery(){
                 <p id="ending-gallery-disclaimer">All samples taken from <a href="https://www.gaf.com/en-us/for-homeowners/gaf-style-guide">GAF My Roof</a> website, our primary vendor. </p>
             </div>
 
-            
+            <Footer />
         </div>
-
     )
 }
 export default Gallery;

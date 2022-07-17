@@ -8,6 +8,7 @@ import Gallery from "./Gallery";
 import Services from "./Services"
 import Contact from "./Contact";
 
+
 function App() {
 
 
@@ -22,6 +23,8 @@ return(
       <Route path="/about" element={<About />}></Route>
       <Route path="/contact" element={<Contact />}></Route>
     </Routes>
+
+
     
   </div>
 )

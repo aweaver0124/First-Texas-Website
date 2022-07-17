@@ -123,6 +123,11 @@ a.nav-button:hover {
   font-size: 45px;
   margin: 1px;
 }
+.white{
+  color: white;
+  text-decoration: none;
+  text-shadow: 3px 3px 3px #363EB0;
+}
 
 .serving{
   font-size: 25px;
@@ -627,3 +632,22 @@ textarea {
 #contact-us-main{
   display: block;
 }
+
+.white-link{
+  color: white;
+  text-shadow: none;
+}
+
+#footer{
+  height: 70px;
+  background-color: #78AAB8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer p {
+  margin-left: 10px;
+  margin-right: 300px; 
+}
+

@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import phone_icon_color from "./images_ft/phone_icon_color.png"
 import location_icon_color from "./images_ft/location_icon_color.png"
 import email_icon_color from "./images_ft/email_icon_color.png"
+import Footer from "./Footer";
 
 function Contact(){
 
@@ -31,7 +32,7 @@ function Contact(){
                 <div id="contact-wrapper">
                     <div className='contact-attr'>
                         <img src={phone_icon_color} alt="phone icon" height="100px" width="100px" />
-                        <h3>Office: 817-964-7620<br></br>Mobile: 817-559-4819</h3>
+                        <a href="tel: 8179647620" className='white-link'><h3>Office: 817-964-7620</h3></a><a href="tel:8175594819" className='white-link'><h3>Mobile: 817-559-4819</h3></a>
                         
                     </div>
                     <div className='contact-attr'>
@@ -79,6 +80,7 @@ function Contact(){
                 </div>
             </div>
             </div>
+            <Footer />
         </div>
   );
 };

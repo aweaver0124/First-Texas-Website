@@ -2,6 +2,7 @@ import shingles_about from "./images_ft/shingles_about.jpg"
 import man_and_son from "./images_ft/man-and-son.jpg"
 import dad_ft from "./images_ft/dad_ft.jpg"
 import tom from "./images_ft/tom.jpg";
+import Footer from "./Footer";
 
 function About(){
     return(
@@ -40,6 +41,7 @@ function About(){
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

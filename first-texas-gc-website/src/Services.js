@@ -2,6 +2,7 @@ import copper_turrent from "./images_ft/copper_turrent.JPG";
 import black_shingles from "./images_ft/black_shingles.jpg"
 import black_metal from "./images_ft/black_metal.jpg";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 function Services(){
     return(
@@ -49,6 +50,7 @@ function Services(){
                     <img src={black_metal} alt="black-metal roof" height="350px" width="550px" />
                 </div>
             </div>
+            <Footer />
         </div>
     )
 
