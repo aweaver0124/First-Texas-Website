@@ -13,7 +13,7 @@ function Contact(){
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('contact_form', 'template_or5gfcm', form.current, 'kxK3uFrItlDmFATTX')
+    emailjs.sendForm('contact_form', 'template_wuricqs', form.current, 'kxK3uFrItlDmFATTX')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
