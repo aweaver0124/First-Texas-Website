@@ -41,7 +41,7 @@ function Contact(){
                     </div>
                     <div className='contact-attr'>
                         <img src={email_icon_color} alt="email icon" height="100px" width="130px" />
-                        <h3 id="email">douglasweaver<br></br>@firsttexasgeneralcontracting.com</h3>
+                        <h3 id="email">firsttexasgeneral@gmail.com</h3>
                     </div>
 
                 </div>
